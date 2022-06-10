@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -30,8 +31,9 @@ android {
         jvmTarget = '1.8'
     }
 }
-
 dependencies {
+    implementation 'com.google.dagger:hilt-android:{latest-version}'
+    kapt 'com.google.dagger:hilt-android-compiler:{latest-version}'
     implementation "androidx.recyclerview:recyclerview:{latest-version}"
     implementation 'android.arch.lifecycle:extensions:{latest-version}'
     implementation 'com.github.bumptech.glide:glide:{latest-version}'
