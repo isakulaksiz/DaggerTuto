@@ -32,7 +32,10 @@ android {
 }
 
 dependencies {
-
+    implementation "androidx.recyclerview:recyclerview:{latest-version}"
+    implementation 'android.arch.lifecycle:extensions:{latest-version}'
+    implementation 'com.github.bumptech.glide:glide:{latest-version}'
+    implementation 'androidx.activity:activity-ktx:{latest-version}'
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
