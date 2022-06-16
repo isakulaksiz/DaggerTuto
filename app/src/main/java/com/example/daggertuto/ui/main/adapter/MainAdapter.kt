@@ -1,4 +1,4 @@
 package com.example.daggertuto.ui.main.adapter
 
-class MainAdapter {
+class MainAdapter(arrayListOf: ArrayList<Any>) {
 }
