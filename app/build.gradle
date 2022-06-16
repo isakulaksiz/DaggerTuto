@@ -34,6 +34,9 @@ android {
     }
 }
 dependencies {
+
+    implementation 'androidx.hilt:hilt-lifecycle-viewmodel:{latest-version}'
+    kapt 'androidx.hilt:hilt-compiler:{latest-version}'
     implementation 'com.google.dagger:hilt-android:{latest-version}'
     kapt 'com.google.dagger:hilt-android-compiler:{latest-version}'
     implementation "androidx.recyclerview:recyclerview:{latest-version}"
